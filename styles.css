@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+/* --- NAVBAR --- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 50px;
+  background: #131313;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.3rem;
+}
+
+.logo svg {
+  fill: #00d9ff;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #cccccc;
+  transition: 0.2s;
+}
+
+.navbar nav a:hover {
+  color: #00d9ff;
+}
+
+/* --- HERO --- */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  padding: 14px 28px;
+  font-size: 1rem;
+  background: #00d9ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: #00a7c4;
+}
+
+/* --- ICON --- */
+.hero-icon svg {
+  fill: #00d9ff;
+  display: block;
+  margin: 0 auto;
+}
